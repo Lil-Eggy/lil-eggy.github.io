@@ -1,0 +1,48 @@
+/* Footer styling for copyright notice */
+.footer-copyright {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #e9ecef;
+    z-index: 1000;
+}
+
+/* Alternative version for sticky footer (not fixed) */
+.footer-copyright-sticky {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #e9ecef;
+}
+
+/* Ensure body has proper spacing when using fixed footer */
+body {
+    margin: 0;
+    padding-bottom: 60px; /* Prevents content from being hidden behind fixed footer */
+}
+
+/* Dark theme alternative */
+.footer-copyright.dark {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-top: 1px solid #34495e;
+}
+
+/* Minimal version */
+.footer-copyright.minimal {
+    background-color: transparent;
+    border-top: none;
+    color: #666;
+    padding: 10px 0;
+}
